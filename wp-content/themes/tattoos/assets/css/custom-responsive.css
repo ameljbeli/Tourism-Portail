@@ -1,0 +1,302 @@
+/*=====Responsive css=====*/
+
+/* Large desktop */
+@media (max-width: 1300px) {
+	.ts_menu_wrapper ul li>.sub-menu>li .sub-menu{
+	left:-170px;
+	top:50%;
+}
+.ts_menu_wrapper ul li>.sub-menu>li:hover .sub-menu{
+	left:-200px;
+}
+}
+@media (max-width: 1200px) { 
+	.ts_menu_wrapper ul li > a{
+		padding:18px 15px;
+	}
+	.ts_appoint_btn{
+		font-size:14px;
+	}
+}
+@media (max-width:991px) {
+	.tattoos_sidebar_area {
+		margin-top: 60px;
+	}
+}
+@media (max-width:990px) {
+	.navbar-toggle{
+		display:block;	
+		margin: 22px 0;
+	}
+	.show-submenu {
+		position: absolute;
+		top: 20px;
+		display:block;
+		right: 20px;
+		color: #ffffff;
+		cursor:pointer;
+	}
+	.ts_menu_wrapper ul li>.sub-menu,.ts_menu_wrapper ul li>.sub-menu>li .sub-menu {
+		position: relative;
+		opacity: 1;
+		visibility: visible;
+		left: auto;
+		top: auto;
+		width: 100%;
+		min-width:100%;
+		float: left;
+		background-color: #ffffff;
+		display:none;
+	}
+
+	.ts_menu_wrapper ul li>.sub-menu>li .sub-menu{
+		border:none;
+		border-bottom:1px solid #e3720c;
+	}
+	.ts_menu_wrapper ul li>.sub-menu>li:hover .sub-menu{
+		left:auto;
+	}
+	.ts_menu_wrapper ul li>.sub-menu li a {
+		color: #333;
+		font-size: 14px;
+	}
+	.ts_menu_wrapper ul li>.sub-menu li a:hover{
+		color:#ffffff
+	}
+	.ts_menu_wrapper {
+		padding: 0;
+		position: fixed;
+		left: -250px;
+		top: 0;
+		bottom:0;
+		height:100%!important;
+		z-index: 999;
+		background-color:#e3720c;
+		max-width: 250px;
+		transition: all 0.25s ease;
+		-webkit-transition: all 0.25s ease;
+		-moz-transition: all 0.25s ease;
+	}
+	.logged-in .ts_menu_wrapper{
+		top:35px;
+	}
+	.ts_menu_wrapper.in{
+		left:0;
+	}
+	.ts_menu_wrapper ul>li{
+		text-align:left;
+		width:100%;
+		float:left;
+	}
+	.ts_menu_wrapper .navbar-nav {
+		margin: 0;
+	}
+	.ts_menu_wrapper ul>li>a{
+		color:#ffffff;
+		float: left;
+		width: auto;
+	}
+	.navbar-toggle .icon-bar{
+		background-color:#e3720c;
+	}
+	.ts_header_wrapper{
+		text-align:center;
+	}
+	.ts_right_menu_section {
+		float: initial;
+		width: auto;
+		display: inline-block;
+	}
+	.ts_menu_section{
+		width:75%;
+	}
+	.ts_logo{
+		text-align:left;
+	}
+	.ts_menu {
+		float: right;
+		width: auto;
+	}
+	.ts_contact_wrapper,.ts_form_container{
+		width:100%;
+		padding-bottom:30px;
+	}
+	.textcenter{
+		text-align:center;
+	}
+	.content_responsive{
+		float:initial;
+		width:auto;
+		display:inline-block;
+	}
+	.ts_footer_content.content_responsive{
+		float:initial;
+		width:300px;
+		text-align:left;
+		margin:0 auto;
+		display:inline-block;
+	}
+	.ts_footer_wrapper{
+		padding-bottom:30px;
+	}
+	.ts_top_footer_section{
+		padding-bottom:5px
+	}
+	.ts_contact_section,.ts_team_section,.ts_service_wrapper{
+		padding-top:50px;
+		padding-bottom:20px;
+	}
+	.ts_update_section,.ts_testimonial_section,.ts_banner_section,.ts_about_banner_wrapper,.ts_appointment_section{
+		padding:50px 0;
+	}
+	.ts_services  .img-responsive{
+		width:100%;
+	}
+}
+@media (max-width:768px) {
+	.appointment_detail,.appointment_map{
+		text-align:center;
+		padding-bottom:40px;
+	}
+	.ts_form_wrapper .form_input_app_div {
+		width: 100%;
+	}
+	.ts_sub_heading{
+		padding:0 30px;
+		margin:0;
+	}
+	.ts_services.content_responsive {
+		float: initial;
+		width: 270px;
+		margin: 0 auto;
+		display: inline-block;
+		margin-bottom: 30px;
+	}
+	.ts_banner_text p{
+		font-size:40px;
+		margin-bottom:20px;
+	}
+	.ts_about_content h1, .ts_main_heading,.ts_updation_text h1{
+		font-size:35px;
+	}
+	.ts_contact_wrapper{
+		text-align:center;
+	}
+	.navbar-nav>li {
+		display: block;
+	}
+	.ts_contact_icon{
+		width:auto;
+		height:auto;
+		float:initial;
+		margin:0px;
+		margin-bottom:30px;
+	}
+	.ts_contact_contant{
+		width:auto;
+		height:auto;
+		float:initial;
+	}
+	.ts_social_text{
+		float:initial;
+	}
+	.tattoo_heading_wrapper{
+		padding:0 30px;
+	}
+	.ts_top_header{
+		text-align:center;
+	}
+	.ts_social_wrapper{
+		width:auto;
+		margin-top:20px;
+		float:initial;
+		display:inline-block;
+	}
+	.ts_gallery_wrapper{
+		width:50%;
+	}
+}
+@media (max-width:767px) {
+
+}
+@media (max-width:667px) {
+}
+@media (max-width:600px) {
+}
+@media (max-width:578px) {
+
+}
+@media (max-width:480px) {
+	.tattoo_heading_wrapper,.ts_updation_text p {
+		padding:0;
+	}
+	.ts_gallery_wrapper{
+		width:100%;
+	}
+	.tattoo_btn{
+		font-size:13px;
+	}
+	.left_btn,.right_btn {
+		width: 100%;
+		float: left;
+		margin-bottom: 20px;
+		text-align:center;
+	}		
+	.ts_footer_content.content_responsive{
+		width:100%;
+	}
+	.ts_about_content{
+		width:100%;
+		padding:30px 25px;
+	}
+	.ts_about_content p{
+		font-size:14px;
+	}
+	.ts_about_content ul li .ts_list_contant p {
+		font-size: 15px;
+		line-height: 25px;
+	}
+	.page-content .search-form > label{
+		width:100%;
+	}
+	.page-content .search-form .search-field, 
+	.page-content .search-form .search-submit {
+		width:100%;
+	}
+}
+@media (max-width:375px) {
+	.ts_services.content_responsive {
+		float: initial;
+		width: 100%;
+		margin: 0 auto;
+		display: inline-block;
+		margin-bottom: 30px;
+	}
+}
+@media (max-width:320px) {	
+	.ts_menu_wrapper ul>li>a{
+		font-size: 13px;
+		padding: 10px 12px;
+	}
+	.ts_menu_wrapper ul>li .sub-menu li a{
+		font-size: 13px;
+	}
+	.ts_menu_wrapper{
+		max-width:200px;
+	}
+	.error_heading h1 {
+		font-size: 120px;
+	}
+	.error_heading h2 {
+		font-size: 28px;
+	}
+	.error_heading p {
+		font-size: 16px;
+	}
+	.show-submenu{
+		top:12px;
+	}
+}
+@media (max-width:240px) {
+
+}
